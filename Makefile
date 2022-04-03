@@ -1,4 +1,4 @@
 CC = gcc
 
-a.out: main.c
-	$(CC) -ggdb main.c  
+output: main.c
+	$(CC) -ggdb -o blinks main.c
